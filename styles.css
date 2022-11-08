@@ -20,19 +20,25 @@ header {
     display: flex; 
 }
 
+.awesome p {
+    margin-top: -40px;
+}
 
-/*.hero,
-header {
+
+.hero,
+header,
+footer {
     background-color: #1F2937;
 }
 
-ommitted for visibility until colors are applied
-*/
-
 ul {
-    list-style: none;
     display: flex;
     gap: 16px;
+}   
+    
+
+li {
+    list-style: none;
 }
 
 .place-img {
@@ -97,4 +103,47 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+h2,
+h1,
+h4,
+button
+ {
+    color: #F9FAF8;
+}
+
+h2 {
+    font-size: 48px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a, 
+.awesome p,
+footer,
+.left-action p {
+    font-size: 15px;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882F6;
+    color: 
+}
+
+.content-quote {
+    background-color: #E5E7EB;
+}
+
+blockquote p {
+    font-size: 36px;
+    color: #1F2937;
+}
+
+h3 {
+    font-size: 36px;
+    color: #1F2937;
 }
